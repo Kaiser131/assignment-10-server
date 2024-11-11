@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://example.com/images/eiffel-tower.jpg",
+        "image": "https://i.ibb.co.com/3Ys8XF2/pexels-pixabay-532826.jpg",
         "author": "Marie Dubois",
         "author_status": "Travel Blogger",
         "article_heading": "Discovering Paris: A Blend of Culture and Charm",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "https://example.com/images/colosseum.jpg",
+        "image": "https://i.ibb.co.com/54h3CKd/pexels-stonesdonotdisappear-20406205.jpg",
         "author": "Luca Rossi",
         "author_status": "Travel Writer",
         "article_heading": "Rome: Walking Through the Eternal City",
@@ -17,11 +17,11 @@
     },
     {
         "id": 3,
-        "image": "https://example.com/images/barcelona-sagrada.jpg",
+        "image": "https://i.ibb.co.com/z7YsNMj/pexels-kovyrina-2430953.jpg",
         "author": "Carlos García",
         "author_status": "Travel Journalist",
         "article_heading": "Barcelona: Gaudí's City and Mediterranean Magic",
-        "article": "Barcelona, the cosmopolitan capital of Spain's Catalonia region, is a vibrant city known for its unique blend of beach culture, history, and cutting-edge architecture. At the heart of its distinct style is the work of architect Antoni Gaudí, whose masterpieces, such as the Sagrada Familia and Park Güell, are unlike anything else in the world. The city's Gothic Quarter, with its narrow medieval streets, contrasts beautifully with the bold and colorful creations of Gaudí. The pedestrian-friendly street La Rambla, lined with cafes, shops, and street performers, is a popular place for both tourists and locals. Barcelona’s beach culture is another big draw, as locals and tourists alike flock to Barceloneta Beach to soak up the sun. The city is also a culinary paradise, with traditional Catalan dishes like paella, tapas, and cava to enjoy. Beyond its sights, Barcelona's warm Mediterranean climate and friendly locals make it a welcoming place to explore. From art and history lovers to those seeking relaxation on the coast, Barcelona is a city that offers something for everyone."
+        "article": "Barcelona, the cosmopolitan capital of Spain's Catalonia region, is a vibrant city known for its unique blend of beach culture, history, and cutting-edge architecture. At the heart of its distinct style is the work of architect Antoni Gaudí, whose masterpieces, such as the Sagrada Familia and Park Güell, are unlike anything else in the world. The city's Gothic Quarter, with its narrow medieval streets, contrasts beautifully with the bold and colorful creations of Gaudí. The pedestrian-friendly street La Rambla, lined with cafes, shops, and street performers, is a popular place for both tourists and locals. Barcelona's beach culture is another big draw, as locals and tourists alike flock to Barceloneta Beach to soak up the sun. The city is also a culinary paradise, with traditional Catalan dishes like paella, tapas, and cava to enjoy. Beyond its sights, Barcelona's warm Mediterranean climate and friendly locals make it a welcoming place to explore. From art and history lovers to those seeking relaxation on the coast, Barcelona is a city that offers something for everyone."
     },
     {
         "id": 4,

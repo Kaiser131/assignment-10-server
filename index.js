@@ -20,8 +20,14 @@ app.get('/article', (req, res) => {
     res.send(article);
 });
 
+app.get('/article/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const serArticle = article.find(got => got.id === id) || {};
+    res.send(serArticle);
+});
+
 
 
 app.listen(port, () => {
-    console.log(`assignment-10 servever is running on ${port}`);
+    console.log(`assignment-10 server is running on ${port}`);
 });
