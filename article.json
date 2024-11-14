@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "image": "https://example.com/images/london-eye.jpg",
+        "image": "https://i.ibb.co.com/HHtxb4w/rome-5163883-1920.jpg",
         "author": "Emma Wilson",
         "author_status": "Travel Guide Specialist",
         "article_heading": "London: Tradition Meets Modernity",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "image": "https://example.com/images/amsterdam-canals.jpg",
+        "image": "https://i.ibb.co.com/r5ShCW4/card-5.jpg",
         "author": "Sophie de Vries",
         "author_status": "Travel Photographer",
         "article_heading": "Amsterdam: Canals, Culture, and History",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "image": "https://example.com/images/zurich-lake.jpg",
+        "image": "https://i.ibb.co.com/z7YsNMj/pexels-kovyrina-2430953.jpg",
         "author": "Lina Meier",
         "author_status": "Adventure Blogger",
         "article_heading": "Zurich: Gateway to Swiss Beauty",
