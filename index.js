@@ -43,11 +43,41 @@ async function run() {
             res.send(result);
         });
 
+        app.get('/spots/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) };
+            const result = await tourismCollection.findOne(query);
+            res.send(result);
+        });
+
         app.post('/spots', async (req, res) => {
             const data = req.body;
             const result = await tourismCollection.insertOne(data);
             res.send(result);
         });
+
+        app.put('/spots/:id', async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: new ObjectId(id) };
+            const options = { upsert: true };
+            const gotData = req.body;
+            const updatedData = {
+                $set: {
+                    spotCost: gotData.spotCost,
+                    spotCountry: gotData.spotCountry,
+                    spotDescription: gotData.spotDescription,
+                    spotImage: gotData.spotImage,
+                    spotLocation: gotData.spotLocation,
+                    spotName: gotData.spotName,
+                    spotSeason: gotData.spotSeason,
+                    spotTime: gotData.spotTime,
+                    spotVisitor: gotData.spotVisitor,
+                }
+            };
+            const result = await tourismCollection.updateOne(filter, updatedData, options);
+            res.send(result);
+        });
+
 
         app.delete('/spots/:id', async (req, res) => {
             const delId = req.params.id;
